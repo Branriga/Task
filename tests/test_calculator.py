@@ -5,10 +5,10 @@ from src.calculator import *
 
 class Testcalculator(unittest.TestCase):
   def test_suma(self):
-    self.assertEqual(suma(20,3), 5)
+    self.assertEqual(suma(20,5),25 )
 
   def test_resta(self):
-   self.assertEqual(resta(50,3), 2)
+   self.assertEqual(resta(20,3), 17)
 
 if __name__ == '__main__':
   unittest.main()
